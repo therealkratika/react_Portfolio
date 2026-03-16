@@ -2,65 +2,26 @@ import "./Project.css";
 
 export default function Projects() {
   const projects = [
+
     {
-      title: "E-Commerce Platform",
+      title: "BetweenUs - A website for Couple",
       description:
-        "A full-featured online store with shopping cart, payment integration, and admin dashboard.",
-      image:
-        "https://images.unsplash.com/photo-1577333715735-8fcb0359d906",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Task Management App",
-      description:
-        "Collaborative task manager with real-time updates, team features, and analytics.",
-      image:
-        "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
-      technologies: ["React", "Firebase", "TypeScript"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Modern portfolio template with animations and responsive design.",
-      image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d",
-      technologies: ["React", "CSS", "Animations"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Weather Dashboard",
-      description:
-        "Real-time weather application with forecasts and location search.",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
-      technologies: ["React", "API", "Charts"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Blog Platform",
-      description:
-        "Content management system with authentication and markdown support.",
+        "Secure place for memories and a place only two people can share.",
       image:
         "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      technologies: ["Next.js", "Database", "Auth"],
-      github: "#",
-      live: "#",
+      technologies: ["Reactjs", "MongoDB", "firebase", "Nodejs", "Expressjs"],
+      github: "https://github.com/therealkratika/Mern_betweenUs",
+      live: "https://betweenuss.netlify.app/",
     },
     {
-      title: "Social Media Dashboard",
+      title: "Expense-tracker",
       description:
-        "Analytics dashboard for tracking social media performance.",
+        "A website to see your expense of a month",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-      technologies: ["Dashboard", "APIs", "Charts"],
-      github: "#",
-      live: "#",
+      technologies: ["Reactjs", "PostgreSQL", "Nodejs", "Expressjs"],
+      github: "https://github.com/therealkratika/expense-tracker",
+      live: "https://expense-tracker-1-e7lf.onrender.com/",
     },
   ];
 

@@ -15,16 +15,12 @@ export default function Navbar() {
   return (
     <header className="header">
       <nav className="nav">
-
-        {/* LOGO */}
         <button
           className="logo"
           onClick={() => scrollToSection("hero")}
         >
           Kratika
         </button>
-
-        {/* DESKTOP MENU */}
         <div className="menu desktop-menu">
           <button onClick={() => scrollToSection("about")}>About</button>
           <button onClick={() => scrollToSection("projects")}>Projects</button>
@@ -36,8 +32,6 @@ export default function Navbar() {
             Contact
           </button>
         </div>
-
-        {/* MOBILE TOGGLE */}
         <button
           className="menu-toggle"
           onClick={() => setIsMenuOpen(!isMenuOpen)}

@@ -7,23 +7,19 @@ export default function Skills() {
   const skillCategories = [
     {
       title: "Front-End",
-      icon: "💻",
       color: "blue",
       skills: [
         "HTML / CSS",
         "JavaScript",
         "React",
         "TypeScript",
-        "Next.js",
         "Redux",
         "Responsive Design",
         "Web Accessibility",
-        "SEO",
       ],
     },
     {
       title: "Back-End",
-      icon: "🗄️",
       color: "green",
       skills: [
         "Node.js",
@@ -32,26 +28,20 @@ export default function Skills() {
         "PostgreSQL",
         "REST APIs",
         "Authentication",
-        "WebSockets",
       ],
     },
     {
-      title: "Tools & DevOps",
-      icon: "🛠️",
+      title: "Tools",
       color: "purple",
       skills: [
         "Git / GitHub",
-        "Docker",
-        "CI / CD",
+        "Render",
+        "Netlify",
         "Vite",
-        "Webpack",
-        "AWS",
-        "Linux",
       ],
     },
     {
       title: "Design & Soft Skills",
-      icon: "✨",
       color: "pink",
       skills: [
         "Figma",
@@ -68,8 +58,6 @@ export default function Skills() {
   return (
     <section id="skills" className="skills">
       <div className="skills-container">
-
-        {/* HEADER */}
         <div className="skills-header">
           <h2>Skills & Expertise</h2>
           <p>
@@ -77,8 +65,6 @@ export default function Skills() {
             modern web experiences.
           </p>
         </div>
-
-        {/* TABS */}
         <div className="skills-tabs">
           {skillCategories.map((category, index) => (
             <button
@@ -91,8 +77,6 @@ export default function Skills() {
             </button>
           ))}
         </div>
-
-        {/* CONTENT */}
         <div className="skills-content">
           <h3>
             <span className="content-icon">
@@ -116,15 +100,15 @@ export default function Skills() {
         {/* STATS */}
         <div className="skills-stats">
           <div className="stat-card">
-            <h4>5+</h4>
+            <h4>1+</h4>
             <p>Years Experience</p>
           </div>
           <div className="stat-card">
-            <h4>50+</h4>
+            <h4>5+</h4>
             <p>Projects Completed</p>
           </div>
           <div className="stat-card">
-            <h4>30+</h4>
+            <h4>10+</h4>
             <p>Technologies Used</p>
           </div>
         </div>

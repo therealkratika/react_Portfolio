@@ -3,19 +3,19 @@ import "./About.css";
 export default function About() {
   const features = [
     {
-      icon: "💻",
+      
       title: "Clean Code",
       description:
         "Writing maintainable, scalable, and well-documented code that follows best practices.",
     },
     {
-      icon: "🎨",
+     
       title: "Modern Design",
       description:
         "Creating beautiful, intuitive interfaces with attention to detail and user experience.",
     },
     {
-      icon: "⚡",
+      
       title: "Performance",
       description:
         "Building fast, optimized applications that deliver exceptional performance.",
@@ -25,8 +25,6 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="about-container">
-
-        {/* HEADER */}
         <div className="about-header">
           <h2>About Me</h2>
           <p>
@@ -34,8 +32,6 @@ export default function About() {
             digital solutions that make a difference.
           </p>
         </div>
-
-        {/* FEATURES */}
         <div className="features">
           {features.map((feature, index) => (
             <div className="feature-card" key={index}>
