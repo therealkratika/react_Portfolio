@@ -11,8 +11,9 @@ export default function Home() {
 
   return (
     <section id="hero" className="hero">
+       <Navbar />
       <div className="hero-container">
-           <Navbar />
+          
         <div className="hero-text">
           <p className="intro">Hello, I'm</p>
           <h1>Kratika</h1>
