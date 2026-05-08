@@ -12,7 +12,6 @@ export default function Skills() {
         "HTML / CSS",
         "JavaScript",
         "React",
-        "TypeScript",
         "Redux",
         "Responsive Design",
         "Web Accessibility",
@@ -25,6 +24,8 @@ export default function Skills() {
         "Node.js",
         "Express",
         "MongoDB",
+        "Mongoose",
+        "socket.io",
         "PostgreSQL",
         "REST APIs",
         "Authentication",
@@ -38,6 +39,8 @@ export default function Skills() {
         "Render",
         "Netlify",
         "Vite",
+        "Docker",
+        "Postman"
       ],
     },
     {
@@ -45,6 +48,7 @@ export default function Skills() {
       color: "pink",
       skills: [
         "Figma",
+        "Canva",
         "UI / UX",
         "Wireframing",
         "Agile",
