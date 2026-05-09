@@ -43,7 +43,7 @@ export default function Home() {
             <a href="https://github.com/therealkratika" target="_blank" rel="noreferrer">
               GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
             <a href="mailto:therealkratika@gmail.com">
@@ -56,16 +56,10 @@ export default function Home() {
             src={faceImg}
             alt="Kratika"
           />
-          <div className="image-bg"></div>
+          
         </div>
 
       </div>
-      <button
-        className="scroll-down"
-        onClick={() => scrollToSection("about")}
-      >
-        ↓
-      </button>
     </section>
   );
 }

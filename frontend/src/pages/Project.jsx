@@ -1,5 +1,7 @@
 import "./Project.css";
-
+import project from "../assets/project.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
 export default function Projects() {
   const projects = [
 
@@ -7,8 +9,7 @@ export default function Projects() {
   title: "Link Saver",
   description:
     "A full-stack MERN application that allows users to securely save, organize, and manage important links with authentication, responsive UI, and containerized deployment using Docker.",
-  image:
-    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+  image: project,
   technologies: [
     "React.js",
     "MongoDB",
@@ -18,14 +19,13 @@ export default function Projects() {
     "Docker"
   ],
   github: "https://github.com/therealkratika/Link_saver_mern",
-  live: "",
+  live: "https://link-saver-mern-914j.onrender.com/",
 },
     {
       title: "Expense-tracker",
       description:
         "A website to see your expense of a month",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      image: project2,
       technologies: ["Reactjs", "PostgreSQL", "Nodejs", "Expressjs"],
       github: "https://github.com/therealkratika/expense-tracker",
       live: "https://expense-tracker-1-e7lf.onrender.com/",
@@ -35,7 +35,7 @@ export default function Projects() {
   description:
     "A real-time multiplayer coding battle platform where users can compete in live coding duels with room-based gameplay, timers, and collaborative coding features.",
   image:
-    "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    project3,
   technologies: [
     "React.js",
     "Node.js",
