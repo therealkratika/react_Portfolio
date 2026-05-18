@@ -1,7 +1,7 @@
 import "./Project.css";
 import project from "../assets/project.png";
 import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+import image from "../assets/image.png";
 export default function Projects() {
   const projects = [
 
@@ -31,22 +31,20 @@ export default function Projects() {
       live: "https://expense-tracker-1-e7lf.onrender.com/",
     },
     {
-  title: "Coding Battle Arena",
-  description:
-    "A real-time multiplayer coding battle platform where users can compete in live coding duels with room-based gameplay, timers, and collaborative coding features.",
-  image:
-    project3,
-  technologies: [
-    "React.js",
-    "Node.js",
-    "Express.js",
-    "Socket.io",
-    "MongoDB",
-    "Docker",
-    "Tailwind CSS"
-  ],
-  github: "https://github.com/therealkratika/coding_BattleArena",
-  live: "",
+ title: "Book Rental",
+description:
+  "A MERN stack based book rental platform where users can list books for rent or sale, browse available books, and connect directly with owners through messaging or phone calls for easy communication and transactions.",
+image:
+  image,
+technologies: [
+  "React.js",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Tailwind CSS"
+],
+github: "https://github.com/therealkratika/BookRental.git",
+live: "https://book-rental-flame.vercel.app",
 },
   ];
 
