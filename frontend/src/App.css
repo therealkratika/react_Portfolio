@@ -1,10 +1,1 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap');
-
-:root {
-  --blush: #f7dde6;
-  --rose: #e8a0b4;
-  --mauve: #c97fa0;
-  --plum: #8b4f72;
-  --lavender: #e8def8;
-  --cream: #fdf6f9;
-}
+@import "tailwindcss";
