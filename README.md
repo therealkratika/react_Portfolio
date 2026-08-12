@@ -1,71 +1,132 @@
-# ✨ Kratika Gupta — Portfolio
+# ✦ Kratika Gupta
+
+### Full-Stack Developer · CSE Student · Problem Solver
 
 <p align="center">
-  <b>My personal developer portfolio built with React, Vite & Tailwind CSS.</b>
+  <a href="https://github.com/therealkratika/react_Portfolio">
+    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-000000?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/therealkratika/react_Portfolio">
+    <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/therealkratika/react_Portfolio">
-    🌐 <b>Live Portfolio</b>
-  </a>
-  &nbsp; • &nbsp;
-  <a href="https://github.com/therealkratika/react_Portfolio">
-    💻 <b>Source Code</b>
-  </a>
+  A modern, responsive developer portfolio built with <b>React + Vite</b>, 
+  designed in <b>Figma</b> and brought to life with a clean, interactive UI.
 </p>
 
 ---
 
-## 🌐 Live Demo
+## 👋 About
 
-🚀 **Visit my portfolio:**
-**https://github.com/therealkratika/react_Portfolio**
+I'm **Kratika Gupta**, a Computer Science Engineering student passionate about building products that are both **functional and visually engaging**.
 
-> The portfolio is designed in Figma and developed using React with a responsive, modern UI.
+I work primarily with **React, Node.js, Express, MongoDB and JavaScript**, while continuously improving my problem-solving and development skills.
+
+This portfolio is a central place to explore my:
+
+**Projects · Skills · Education · Experience · Development Journey**
 
 ---
 
-## 👩‍💻 About
+## ✨ Highlights
 
-Hi! I'm **Kratika Gupta**, a Computer Science Engineering student and passionate developer.
+<table>
+<tr>
+<td width="50%">
 
-I enjoy building **full-stack web applications**, solving coding problems, and creating clean and user-friendly interfaces.
+### 🎨 Modern UI
 
-This portfolio showcases my:
+Clean and minimal interface with a focus on typography, spacing and visual hierarchy.
 
-* 💻 Technical Skills
-* 🚀 Projects
-* 🎓 Education
-* 👩‍💻 Development Journey
-* 📬 Contact & Social Links
+</td>
+<td width="50%">
+
+### 📱 Responsive
+
+Designed to provide a smooth experience across desktop, tablet and mobile devices.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### ⚡ React + Vite
+
+Fast development workflow powered by Vite and modern React.
+
+</td>
+<td width="50%">
+
+### 🎯 Interactive
+
+Smooth navigation, reusable components and interactive portfolio sections.
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-* ⚛️ React
-* ⚡ Vite
-* 🎨 Tailwind CSS
-* 🟨 JavaScript
-* 🧭 React Router
-* 🎯 React Scroll
-* ✨ React Icons
-* 🖼️ Figma
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite,js,tailwind,html,css" />
+</p>
+
+### Tools & Libraries
+
+<p>
+<img src="https://skillicons.dev/icons?i=figma,github,vscode" />
+</p>
+
+**Libraries**
+
+`React Router` · `React Scroll` · `React Icons` · `Lucide React`
 
 ---
 
-## ✨ Features
+## 📂 What's Inside?
 
-* Responsive portfolio design
-* Modern UI
-* Figma-based design
-* Smooth scrolling navigation
-* Project showcase
-* Skills section
-* Education section
-* Contact section
-* Social media links
-* Reusable React components
+### 👩‍💻 About Me
+
+A quick introduction and overview of my development journey.
+
+### 🧠 Skills
+
+Technologies, programming languages, frameworks and tools I work with.
+
+### 🚀 Projects
+
+Selected projects showcasing my experience with frontend and full-stack development.
+
+### 🎓 Education
+
+My academic background and journey as a Computer Science Engineering student.
+
+### 📬 Contact
+
+Easy ways to connect with me for collaboration, opportunities and projects.
+
+---
+
+## 🎨 Design → Development
+
+The portfolio started as a **Figma design** and was then converted into a fully functional React application.
+
+The implementation focuses on:
+
+* Clean component structure
+* Responsive layouts
+* Consistent spacing
+* Modern typography
+* Reusable UI components
+* Smooth navigation
+* Simple and intuitive user experience
 
 ---
 
@@ -75,15 +136,19 @@ This portfolio showcases my:
 react_Portfolio/
 │
 ├── frontend/
+│   │
 │   ├── public/
+│   │
 │   ├── src/
-│   │   ├── components/
 │   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   │
 │   ├── package.json
 │   ├── vite.config.js
+│   ├── eslint.config.js
 │   └── index.html
 │
 └── README.md
@@ -91,104 +156,103 @@ react_Portfolio/
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Getting Started
 
-### Clone the repository
+### 01 · Clone
 
 ```bash
 git clone https://github.com/therealkratika/react_Portfolio.git
 ```
 
-### Go into the frontend folder
+### 02 · Navigate
 
 ```bash
 cd react_Portfolio/frontend
 ```
 
-### Install dependencies
+### 03 · Install
 
 ```bash
 npm install
 ```
 
-### Start the development server
+### 04 · Run
 
 ```bash
 npm run dev
 ```
 
-Open the local URL provided by Vite.
-
----
-
-## 🎨 Design
-
-The portfolio was first designed in **Figma** and then converted into a functional React application.
-
-The main focus was:
-
-* Clean UI
-* Responsive design
-* Consistent spacing
-* Modern typography
-* Simple navigation
-* Developer-focused presentation
-
----
-
-## 📌 Featured Sections
-
-### 👋 About Me
-
-Introduction and a brief overview of my development journey.
-
-### 🛠️ Skills
-
-Technologies, programming languages, frameworks, and tools I work with.
-
-### 🚀 Projects
-
-A showcase of the projects I have built using different technologies.
-
-### 🎓 Education
-
-My academic background and educational journey.
-
-### 📬 Contact
-
-Ways to connect with me for opportunities and collaborations.
+Open the local development URL displayed by Vite.
 
 ---
 
 ## 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=therealkratika&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=therealkratika&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://github.com/therealkratika">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=therealkratika&show_icons=true&theme=transparent&hide_border=true&title_color=7c3aed&icon_color=7c3aed"
+    width="48%"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=therealkratika&theme=transparent&hide_border=true&ring=7c3aed&fire=7c3aed&currStreakLabel=7c3aed"
+    width="48%"
+  />
 </p>
 
 ---
 
-<p align="center">
-  ⭐ If you like my portfolio, consider starring the repository!
-</p>
+## 🌱 Currently Exploring
+
+```text
+▸ Full-Stack Development
+▸ Advanced React
+▸ Backend Architecture
+▸ Data Structures & Algorithms
+▸ Machine Learning
+▸ System Design
+```
+
+---
+
+## 🎯 Roadmap
+
+* [x] Portfolio UI
+* [x] Responsive design
+* [x] Projects section
+* [x] Skills section
+* [x] Education section
+* [x] Contact section
+* [ ] Add more project case studies
+* [ ] Add downloadable resume
+* [ ] Improve animations
+* [ ] Add blog section
+
+---
+
+## 🤝 Let's Connect
 
 <p align="center">
-  Made with ❤️ by <b>Kratika Gupta</b>
+
+<a href="https://github.com/therealkratika">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+### ⭐ Like the portfolio?
+
+**Give the repository a star and check out my other projects!**
+
+<br/>
+
+Made with ❤️ by **Kratika Gupta**
+
 </p>
