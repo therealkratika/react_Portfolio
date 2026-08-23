@@ -53,7 +53,7 @@ export default function Projects() {
         "Tailwind CSS",
       ],
       github: "https://github.com/therealkratika/BookRental.git",
-      live: "https://book-rental-flame.vercel.app",
+      live: "https://bookloom-psi.vercel.app/",
     },
   ];
 
