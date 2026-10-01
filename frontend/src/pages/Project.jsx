@@ -9,53 +9,108 @@ import {
 } from "lucide-react";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "Link Saver",
-      description:
-        "A full-stack MERN application that allows users to securely save, organize, and manage important links with authentication, responsive UI, and Docker deployment.",
-      image: project,
-      technologies: [
-        "React.js",
-        "MongoDB",
-        "Express.js",
-        "Node.js",
-        "Tailwind CSS",
-        "Docker",
-      ],
-      github: "https://github.com/therealkratika/Link_saver_mern",
-      live: "https://link-saver-mern-914j.onrender.com/",
-    },
-    {
-      title: "Expense Tracker",
-      description:
-        "A full-stack expense management application to track and manage monthly expenses with a responsive interface.",
-      image: project2,
-      technologies: [
-        "React.js",
-        "PostgreSQL",
-        "Node.js",
-        "Express.js",
-      ],
-      github: "https://github.com/therealkratika/expense-tracker",
-      live: "https://expense-tracker-1-e7lf.onrender.com/",
-    },
-    {
-      title: "Book Rental",
-      description:
-        "A MERN stack platform where users can list books for rent or sale, browse available books, and connect directly with owners.",
-      image: image,
-      technologies: [
-        "React.js",
-        "MongoDB",
-        "Express.js",
-        "Node.js",
-        "Tailwind CSS",
-      ],
-      github: "https://github.com/therealkratika/BookRental.git",
-      live: "https://bookloom-psi.vercel.app/",
-    },
-  ];
+ const projects = [
+  {
+    title: "CodeLens",
+    description:
+      "An AI-powered RAG system that analyzes GitHub repositories and enables developers to ask questions about their codebase using semantic and keyword-based retrieval.",
+    image: project,
+    technologies: [
+      "Python",
+      "RAG",
+      "LLM",
+      "Embeddings",
+      "ChromaDB",
+      "BM25",
+    ],
+    github: "https://github.com/therealkratika/codelens.git",
+    live: "",
+  },
+  {
+    title: "Coding BattleArena",
+    description:
+      "A real-time multiplayer coding battle platform where users create and join rooms, solve coding challenges, compete in real time, and track results through leaderboards.",
+    image: image,
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Socket.io",
+      "Monaco Editor",
+      "Piston",
+    ],
+    github: "https://github.com/therealkratika/Nextja_coding_battle.git",
+    live: "https://nextja-coding-battle.vercel.app/",
+  },
+
+  {
+    title: "Mini Redis",
+    description:
+      "A lightweight Redis-inspired in-memory key-value database built from scratch in C++ with support for core commands and TCP-based client-server communication.",
+    image: project,
+    technologies: [
+      "C++",
+      "C++17",
+      "TCP",
+      "Sockets",
+      "Networking",
+      "Data Structures",
+    ],
+    github: "https://github.com/therealkratika/mini_redis.git",
+    live: "",
+  },
+
+  {
+    title: "Book Rental",
+    description:
+      "A MERN stack platform where users can list books for rent or sale, browse available books, manage listings, and connect directly with book owners.",
+    image: project2,
+    technologies: [
+      "React.js",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Cloudinary",
+    ],
+    github: "https://github.com/therealkratika/BookRental.git",
+    live: "https://bookloom-psi.vercel.app/",
+  },
+
+  {
+    title: "Expense Tracker",
+    description:
+      "A full-stack expense management application that allows users to securely track and manage their expenses with authentication and a responsive interface.",
+    image: image,
+    technologies: [
+      "React.js",
+      "PostgreSQL",
+      "Node.js",
+      "Express.js",
+      "JWT",
+      "Firebase",
+    ],
+    github: "https://github.com/therealkratika/expense-tracker",
+    live: "https://expense-tracker-1-e7lf.onrender.com/",
+  },
+  {
+    title: "LinkSaver",
+    description:
+      "A full-stack web application that allows users to save, organize, and manage their favorite links with authentication and a responsive interface.",
+    image: project2,
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+      "Docker"
+    ],
+    github: "https://github.com/therealkratika/Link_saver_mern.git",
+    live: "https://link-saver-mern-914j.onrender.com/",
+  }
+];
 
   return (
     <section
@@ -111,8 +166,6 @@ export default function Projects() {
                 <p className="mt-4 text-sm leading-7 text-zinc-400">
                   {project.description}
                 </p>
-
-                {/* Tech Stack */}
                 <div className="mt-6 flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
                     <span
@@ -123,28 +176,30 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-
-                {/* Buttons */}
                 <div className="mt-8 flex gap-3">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-2 text-white transition hover:border-[#F8C8DC] hover:text-[#F8C8DC]"
-                  >
-                    <GitBranch size={18} />
-                    Code
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 rounded-full border border-white/10 px-5 py-2 text-white transition hover:border-[#F8C8DC] hover:text-[#F8C8DC]"
+                    >
+                      <GitBranch size={18} />
+                      GitHub
+                    </a>
+                  )}
 
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2 rounded-full bg-white px-5 py-2 font-medium text-black transition hover:scale-105 hover:bg-[#F8C8DC]"
-                  >
-                    <ExternalLink size={18} />
-                    Live
-                  </a>
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 rounded-full bg-white px-5 py-2 font-medium text-black transition hover:scale-105 hover:bg-[#F8C8DC]"
+                    >
+                      <ExternalLink size={18} />
+                      Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
