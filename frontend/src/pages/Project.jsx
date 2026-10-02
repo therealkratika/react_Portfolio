@@ -47,7 +47,7 @@ export default function Projects() {
     title: "Mini Redis",
     description:
       "A lightweight Redis-inspired in-memory key-value database built from scratch in C++ with support for core commands and TCP-based client-server communication.",
-    image: project,
+    image: project4,
     technologies: [
       "C++",
       "C++17",
@@ -97,7 +97,7 @@ export default function Projects() {
     title: "LinkSaver",
     description:
       "A full-stack web application that allows users to save, organize, and manage their favorite links with authentication and a responsive interface.",
-    image: project2,
+    image: project,
     technologies: [
       "React.js",
       "Node.js",
