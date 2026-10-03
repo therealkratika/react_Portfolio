@@ -7,14 +7,14 @@ export default function Contact() {
     {
       icon: <MdEmail size={28} />,
       title: "Email",
-      value: "therealkratika@gmail.com",
-      href: "mailto:therealkratika@gmail.com",
+      value: "thereal.kratika@gmail.com",
+      href: "mailto:thereal.kratika@gmail.com",
     },
     {
       icon: <FaPhoneAlt size={24} />,
       title: "Phone",
-      value: "+91 9769966000",
-      href: "tel:+919769966000",
+      value: "+91 9170285251",
+      href: "tel:+919170285251",
     },
     {
       icon: <IoLocationSharp size={28} />,
