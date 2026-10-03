@@ -1,7 +1,9 @@
 import project from "../assets/project.png";
 import project2 from "../assets/project2.png";
 import image from "../assets/image.png";
-
+import project5 from "../assets/project5.png";
+import project4 from "../assets/project4.png";
+import project3 from "../assets/project3.png";
 import {
   GitBranch,
   ExternalLink,
@@ -14,7 +16,7 @@ export default function Projects() {
     title: "CodeLens",
     description:
       "An AI-powered RAG system that analyzes GitHub repositories and enables developers to ask questions about their codebase using semantic and keyword-based retrieval.",
-    image: project5,
+    image:project5,
     technologies: [
       "Python",
       "RAG",
@@ -30,7 +32,7 @@ export default function Projects() {
     title: "Coding BattleArena",
     description:
       "A real-time multiplayer coding battle platform where users create and join rooms, solve coding challenges, compete in real time, and track results through leaderboards.",
-    image: image,
+    image: project3,
     technologies: [
       "Next.js",
       "Node.js",
@@ -64,7 +66,7 @@ export default function Projects() {
     title: "Book Rental",
     description:
       "A MERN stack platform where users can list books for rent or sale, browse available books, manage listings, and connect directly with book owners.",
-    image: project2,
+    image: image,
     technologies: [
       "React.js",
       "MongoDB",
@@ -81,7 +83,7 @@ export default function Projects() {
     title: "Expense Tracker",
     description:
       "A full-stack expense management application that allows users to securely track and manage their expenses with authentication and a responsive interface.",
-    image: image,
+    image: project2,
     technologies: [
       "React.js",
       "PostgreSQL",
