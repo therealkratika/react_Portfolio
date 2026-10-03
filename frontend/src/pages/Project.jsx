@@ -14,7 +14,7 @@ export default function Projects() {
     title: "CodeLens",
     description:
       "An AI-powered RAG system that analyzes GitHub repositories and enables developers to ask questions about their codebase using semantic and keyword-based retrieval.",
-    image: project,
+    image: project5,
     technologies: [
       "Python",
       "RAG",
